@@ -16,6 +16,12 @@ st.write("3. **Finger tip Pulse Oximeters** with Digital display, screen size 14
 path = os.path.dirname(__file__)
 my_file = path+'/images/Donate.jpeg'
 st.image(my_file)
+my_Mfile = path+'/images/Med.jpeg'
+my_Ofile = path+'/images/Oxy.jpeg'
+my_Cfile = path+'/images/Clothes.jpeg'
+my_Ffile = path+'/images/Food.jpeg'
+my_Bfile = path+'/images/Book.jpeg'
+my_Tfile = path+'/images/Ty.jpeg'
 
 with st.container():
   st.write("---")
@@ -29,8 +35,7 @@ with st.container():
   with text_column:
       st.write("By clicking on the link above, you can help those who need medicines but are not able to buy it, by donating all those medicines that are of no use to you and are not expired")
   with image_column:
-      my_file = path+'/images/Med.jpeg'
-      st.image(my_file)
+      st.image(my_Mfile)
 
 with st.container():
     st.write("##")
@@ -40,8 +45,7 @@ with st.container():
     with text_column:
         st.write("You can donate the medical equipment such as Finger tip Pulse oximeters, oxygen cylinders etc. ,that you have but are of no use to you. By doing this you may save a life of a person who doesn't have enough money to buy an oxygen cylinder or other much needed equipment for themselves")
     with image_column:
-        my_file = path+'/images/Oxy.jpeg'
-        st.image(my_file)
+        st.image(my_Ofile)
 
 with st.container():
     st.write("##")
@@ -51,8 +55,7 @@ with st.container():
     with text_column:
         st.write("There are many poor people on the streets that are wearing worn out clothes but dont have enough money to buy new clothes for themselves or their kids. You can donate your old clothes here which are of no use to you now but they must be in good condition inorder to help the poor")
     with image_column:
-        my_file = path+'/images/Clothes.jpeg'
-        st.image(my_file)
+        st.image(my_Cfile)
 
 with st.container():
     st.write("##")
@@ -62,8 +65,7 @@ with st.container():
     with text_column:
         st.write(" There are many poor people who sleep with an empty stomach everyday or die every month just because they didn't have enough money to buy food for themselves. You can donate any type of food here which has not expired yet.")
     with image_column:
-        my_file = path+'/images/Food.jpeg'
-        st.image(my_file)
+        st.image(my_Ffile)
 
 with st.container():
     st.write("##")
@@ -73,14 +75,12 @@ with st.container():
     with text_column:
         st.write("You can donate any types of books here. They can be school books, college books, novels etc. Every book you donate here will be given to a child who needs it but don't have enough money to afford it  ")
     with image_column:
-        my_file = path+'/images/Book.jpeg'
-        st.image(my_file)
+        st.image(my_Bfile)
 
 st.write("##")
 st.write("\"Never get tired of doing little things for others, sometimes those little things occupy the biggest parts of their hearts.\"")
 st.subheader("Thank You!")
-my_file = path+'/images/Ty.jpeg'
-st.image(my_file)
+st.image(my_Tfile)
 
 st.write("##")
 st.write("##")
