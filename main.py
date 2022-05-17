@@ -20,7 +20,7 @@ img_oxygen = Image.open(r".\images\Oxy.jpg")
 img_book = Image.open(r".\images\Book.jpg")
 img_Ty = Image.open(r".\images\Ty.jpg")
 img_Clothes = Image.open(r".\images\Clothes.jpg")
-st.image(img_donate)
+st.image(".\images\Donate.jpeg")
 
 with st.container():
   st.write("---")
@@ -34,7 +34,7 @@ with st.container():
   with text_column:
       st.write("By clicking on the link above, you can help those who need medicines but are not able to buy it, by donating all those medicines that are of no use to you and are not expired")
   with image_column:
-      st.image(img_medicines)
+      st.image(".\images\Med.jpg")
 
 with st.container():
     st.write("##")
@@ -44,7 +44,7 @@ with st.container():
     with text_column:
         st.write("You can donate the medical equipment such as Finger tip Pulse oximeters, oxygen cylinders etc. ,that you have but are of no use to you. By doing this you may save a life of a person who doesn't have enough money to buy an oxygen cylinder or other much needed equipment for themselves")
     with image_column:
-        st.image(img_oxygen)
+        st.image(".\images\Oxy.jpg")
 
 with st.container():
     st.write("##")
@@ -54,7 +54,7 @@ with st.container():
     with text_column:
         st.write("There are many poor people on the streets that are wearing worn out clothes but dont have enough money to buy new clothes for themselves or their kids. You can donate your old clothes here which are of no use to you now but they must be in good condition inorder to help the poor")
     with image_column:
-        st.image(img_Clothes)
+        st.image(".\images\Clothes.jpg")
 
 with st.container():
     st.write("##")
@@ -64,7 +64,7 @@ with st.container():
     with text_column:
         st.write(" There are many poor people who sleep with an empty stomach everyday or die every month just because they didn't have enough money to buy food for themselves. You can donate any type of food here which has not expired yet.")
     with image_column:
-        st.image(img_food)
+        st.image(".\images\Food.jpg")
 
 with st.container():
     st.write("##")
@@ -74,12 +74,12 @@ with st.container():
     with text_column:
         st.write("You can donate any types of books here. They can be school books, college books, novels etc. Every book you donate here will be given to a child who needs it but don't have enough money to afford it  ")
     with image_column:
-        st.image(img_book)
+        st.image(".\images\Book.jpg")
 
 st.write("##")
 st.write("\"Never get tired of doing little things for others, sometimes those little things occupy the biggest parts of their hearts.\"")
 st.subheader("Thank You!")
-st.image(img_Ty)
+st.image(".\images\Ty.jpg")
 
 st.write("##")
 st.write("##")
