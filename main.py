@@ -35,8 +35,8 @@ with st.container():
       st.write("By clicking on the link above, you can help those who need medicines but are not able to buy it, by donating all those medicines that are of no use to you and are not expired")
   with image_column:
       path = os.path.dirname(__file__)
-      my_Mfile = path+'/images/Med.jpeg'
-      st.image(my_Mfile)
+      my_file = path+'/images/Med.jpeg'
+      st.image(my_file)
 
 with st.container():
     st.write("##")
