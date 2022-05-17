@@ -16,7 +16,6 @@ st.write("3. **Finger tip Pulse Oximeters** with Digital display, screen size 14
 path = os.path.dirname(__file__)
 my_file = path+'/images/Donate.jpeg'
 st.image(my_file)
-my_Mfile = path+'/images/Med.jpeg'
 my_Ofile = path+'/images/Oxy.jpeg'
 my_Cfile = path+'/images/Clothes.jpeg'
 my_Ffile = path+'/images/Food.jpeg'
@@ -35,6 +34,8 @@ with st.container():
   with text_column:
       st.write("By clicking on the link above, you can help those who need medicines but are not able to buy it, by donating all those medicines that are of no use to you and are not expired")
   with image_column:
+      path = os.path.dirname(__file__)
+      my_Mfile = path+'/images/Med.jpeg'
       st.image(my_Mfile)
 
 with st.container():
