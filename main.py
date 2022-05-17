@@ -13,7 +13,9 @@ st.write("1. **Oxygen Concentrators** of 10lpm capacity) with CE and ISO certifi
 st.write("2. **D-type Oxygen Cylinders** (40-47L capacity), preferably filled, along with regulator and humidifier so as to able to directly supply oxygen at desired flow to patients on low oxygen. ")
 st.write("3. **Finger tip Pulse Oximeters** with Digital display, screen size 14*28 mm, battery operated, To Measure SpO2 level with accuracy level of 70 to 99 +- 2% and Pulse range between 25 to 250 BPM.")
 
-st.image(".\images\Donate.jpeg")
+path = os.path.dirname(__file__)
+my_file = path+'/images/Donate.jpeg'
+st.image(my_file)
 
 with st.container():
   st.write("---")
