@@ -13,13 +13,6 @@ st.write("1. **Oxygen Concentrators** of 10lpm capacity) with CE and ISO certifi
 st.write("2. **D-type Oxygen Cylinders** (40-47L capacity), preferably filled, along with regulator and humidifier so as to able to directly supply oxygen at desired flow to patients on low oxygen. ")
 st.write("3. **Finger tip Pulse Oximeters** with Digital display, screen size 14*28 mm, battery operated, To Measure SpO2 level with accuracy level of 70 to 99 +- 2% and Pulse range between 25 to 250 BPM.")
 
-img_donate = Image.open(r".\images\Donate.jpeg")
-img_medicines = Image.open(r".\images\Med.jpg")
-img_food = Image.open(r".\images\Food.jpg")
-img_oxygen = Image.open(r".\images\Oxy.jpg")
-img_book = Image.open(r".\images\Book.jpg")
-img_Ty = Image.open(r".\images\Ty.jpg")
-img_Clothes = Image.open(r".\images\Clothes.jpg")
 st.image(".\images\Donate.jpeg")
 
 with st.container():
