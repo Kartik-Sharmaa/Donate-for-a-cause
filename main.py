@@ -51,7 +51,7 @@ with st.container():
     with text_column:
         st.write("There are many poor people on the streets that are wearing worn out clothes but dont have enough money to buy new clothes for themselves or their kids. You can donate your old clothes here which are of no use to you now but they must be in good condition inorder to help the poor")
     with image_column:
-      my_file = path+'/images/Clothes.jpeg'
+        my_file = path+'/images/Clothes.jpeg'
         st.image(my_file)
 
 with st.container():
